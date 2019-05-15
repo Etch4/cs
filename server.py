@@ -1,4 +1,4 @@
-# Server Proj
+# Server Project
 # DWP Moonen
 
 #!/usr/bin/python3.5
