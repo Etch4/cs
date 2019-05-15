@@ -1,7 +1,8 @@
+
+#!/usr/bin/python3.5
 # Server Project
 # DWP Moonen
 
-#!/usr/bin/python3.5
 import socket
 from time import sleep
 
