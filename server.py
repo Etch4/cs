@@ -26,8 +26,16 @@ while True:
         print("Recv data from client :", bytes.decode(data))
         client.send(data)
 
-print("Connection is Closing ...")
 client.send(str.encode("exit"))
 server.close()
+print("\n\n Connection is Closing ", end='')
+sleep(.5)
+print(".", end='', flush=True)
+sleep(.5)
+print(".", end='', flush=True)
+sleep(.5)
+print(".", end='', flush=True)
+sleep(.5)
+print("\n\n")
 
 exit(0)

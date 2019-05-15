@@ -2,6 +2,7 @@
 # DWP Moonen
 #!/usr/bin/python3.6
 import socket
+from time import sleep
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -20,7 +21,15 @@ while True:
     if(bytes.decode(data) == "exit"):
         break
 
-print("Conn is Closing ...")
 server.close()
+print("\n\n Connection is Closing ", end='')
+sleep(.5)
+print(".", end='', flush=True)
+sleep(.5)
+print(".", end='', flush=True)
+sleep(.5)
+print(".", end='', flush=True)
+sleep(.5)
+print("\n\n")
 
 exit(0)
