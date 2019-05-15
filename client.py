@@ -23,6 +23,4 @@ while True:
 print("Conn is Closing ...")
 server.close()
 
-exit (0)
-
-      
+exit(0)
