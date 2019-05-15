@@ -3,9 +3,9 @@
 
 #!/usr/bin/python3.5
 import socket
+from time import sleep
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
 host = ''
 port = 5150
 
