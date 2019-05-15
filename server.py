@@ -30,3 +30,4 @@ print("Connection is Closing ...")
 client.send(str.encode("exit"))
 server.close()
 
+exit(0)

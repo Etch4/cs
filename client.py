@@ -1,3 +1,5 @@
+# Client Project
+# DWP Moonen
 #!/usr/bin/python3.6
 import socket
 
@@ -20,5 +22,7 @@ while True:
 
 print("Conn is Closing ...")
 server.close()
+
+exit (0)
 
       
